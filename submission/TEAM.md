@@ -1,6 +1,6 @@
 # Nhóm Day 10 — Dataset Release & Handover
 
-- Seed luyện tập: `<<cập nhật khi chạy run_lab.py>>`
+- Seed luyện tập: `9007` (lô sạch đối chứng: `clean` / seed `5`)
 - Repo: https://github.com/hungpixi/K5-L23-Day10-Dataset-Release-Handover
 
 | Họ và tên | MSHV | Tài khoản GitHub | Phần chính | Thư mục phụ trách |
