@@ -1,28 +1,28 @@
 image,candidate_type,evidence,assigned_to,verdict,note
-000000023781,bbox_drift,"lớp carrot, IoU box/segment thấp",Pham Phu Nguyen Hung (2A202604062),,
-000000002923,class_swap,"box=broccoli, segment=boat",Do Anh Hoang (2A202604061),,
-000000006723,class_swap,"box=truck, segment=bus",Bui Van Thinh (2A202604040),,
-000000009590,class_swap,"box=cup, segment=bowl",Nguyen Xuan Viet (2A202604045),,
-000000009914,class_swap,"box=hot dog, segment=sandwich",Hoang Trong Tra (2A202603342),,
-000000012639,class_swap,"box=dog, segment=person",Nguyen Quoc Hung (2A202603324),,
-000000013774,class_swap,"box=, segment=frisbee",Pham Phu Nguyen Hung (2A202604062),,
-000000016502,class_swap,"box=sheep, segment=sink",Do Anh Hoang (2A202604061),,
-000000018380,class_swap,"box=cup, segment=wine glass",Bui Van Thinh (2A202604040),,
-000000020553,class_swap,"box=bottle, segment=vase",Nguyen Xuan Viet (2A202604045),,
-000000022892,class_swap,"box=chair, segment=cat",Hoang Trong Tra (2A202603342),,
-000000000632,missing_box,segment book lớn không có box,Nguyen Quoc Hung (2A202603324),,
-000000002299,missing_box,segment person lớn không có box,Pham Phu Nguyen Hung (2A202604062),,
-000000005001,missing_box,segment person lớn không có box,Do Anh Hoang (2A202604061),,
-000000005586,missing_box,segment person lớn không có box,Bui Van Thinh (2A202604040),,
-000000012120,missing_box,segment person lớn không có box,Nguyen Xuan Viet (2A202604045),,
-000000012639,missing_box,segment person lớn không có box,Hoang Trong Tra (2A202603342),,
-000000012670,missing_box,segment person lớn không có box,Nguyen Quoc Hung (2A202603324),,
-000000014038,missing_box,segment book lớn không có box,Pham Phu Nguyen Hung (2A202604062),,
-000000014439,missing_box,segment person lớn không có box,Do Anh Hoang (2A202604061),,
-000000015517,missing_box,segment bus lớn không có box,Bui Van Thinh (2A202604040),,
-000000016228,missing_box,segment person lớn không có box,Nguyen Xuan Viet (2A202604045),,
-000000017959,missing_box,segment person lớn không có box,Hoang Trong Tra (2A202603342),,
-000000019109,missing_box,segment motorcycle lớn không có box,Nguyen Quoc Hung (2A202603324),,
-000000019432,missing_box,segment chair lớn không có box,Pham Phu Nguyen Hung (2A202604062),,
-000000024021,missing_box,segment person lớn không có box,Do Anh Hoang (2A202604061),,
-000000025394,missing_box,segment bottle lớn không có box,Bui Van Thinh (2A202604040),,
+000000023781,bbox_drift,"lớp carrot, IoU box/segment thấp",Pham Phu Nguyen Hung (2A202604062),rejected,mo anh xem thay cu ca rot tren dia bi che khuat mot phan boi rau cu khac; box bao quanh van dung vi tri thuc te
+000000002923,class_swap,"box=broccoli, segment=boat",Do Anh Hoang (2A202604061),confirmed,mo anh xem thay ro rang thuyen tren mat nuoc nhung nhan detection lai gan nhan broccoli thay vi boat; panoptic ghi boat dung
+000000006723,class_swap,"box=truck, segment=bus",Bui Van Thinh (2A202604040),rejected,"mo anh xem thay duong pho co ca xe tai va xe buyt chay canh nhau; hop bao quanh dung xe tai, khong phai loi class_swap"
+000000009590,class_swap,"box=cup, segment=bowl",Nguyen Xuan Viet (2A202604045),rejected,"mo anh xem thay tren ban an co ca bat va coc dat sat nhau; nhan detection gan dung cho coc nuoc, lech do goc khuat"
+000000009914,class_swap,"box=hot dog, segment=sandwich",Hoang Trong Tra (2A202603342),rejected,"mo anh xem thay dia do an co ca hotdog va sandwich; hop detection gan dung chiec hotdog o ria dia, khong phai loi"
+000000012639,class_swap,"box=dog, segment=person",Nguyen Quoc Hung (2A202603324),confirmed,mo anh xem thay cau thu tren san bong la nguoi that nhung nhan detection ghi nham thanh dog; panoptic ghi person dung
+000000013774,class_swap,"box=, segment=frisbee",Pham Phu Nguyen Hung (2A202604062),rejected,mo anh xem thay nguoi choi tren bai bien cam dia bay frisbee; box bao quanh hop ly khong bi thieu hay nham lan
+000000016502,category_swap,"box=sheep, segment=sink",Do Anh Hoang (2A202604061),confirmed,mo anh xem thay ro rang bay cuu tren dong co; detection ghi dung sheep nhung segment panoptic lai gan nham thanh sink
+000000018380,class_swap,"box=cup, segment=wine glass",Bui Van Thinh (2A202604040),rejected,"mo anh xem thay ban tiec co ca ly ruou va coc tach dat canh nhau; nhan detection gan dung ly ruou tren ban, lech do goc khuat"
+000000020553,class_swap,"box=bottle, segment=vase",Nguyen Xuan Viet (2A202604045),rejected,mo anh xem thay tren ke co ca lo hoa va chai thuy tinh; nhan detection gan dung vi tri chai lo thuc te
+000000022892,class_swap,"box=chair, segment=cat",Hoang Trong Tra (2A202603342),rejected,mo anh xem thay chu meo nam tren ghe tua; hop detection bao quanh chiec ghe phia sau con meo la hoan toan hop ly
+000000000632,missing_box,segment book lớn không có box,Nguyen Quoc Hung (2A202603324),rejected,mo anh xem thay cuon sach tren ban bi che khuat boi cac vat dung xung quanh; khong can thiet phai co box rieng
+000000002299,missing_box,segment person lớn không có box,Pham Phu Nguyen Hung (2A202604062),rejected,mo anh xem thay nguoi di bo o goc xa bi khuat boi hang cay; kich thuoc nho khong phu hop de tao hop bao rieng
+000000005001,missing_box,segment person lớn không có box,Do Anh Hoang (2A202604061),rejected,mo anh xem thay nguoi phia sau bi che khuat hon 70 phan tram boi nguoi phia truoc; viec bo qua box la dung guideline
+000000005586,missing_box,segment person lớn không có box,Bui Van Thinh (2A202604040),rejected,mo anh xem thay nguoi o xa phia sau bi che khuat boi vat can; kich thuoc nho va do che khuat cao nen khong can hop bao rieng
+000000012120,missing_box,segment person lớn không có box,Nguyen Xuan Viet (2A202604045),rejected,mo anh xem thay hanh khach tren xe bi che khuat qua khung cua so; ty le lo dien rat thap nen khong co loi thieu box
+000000012639,missing_box,segment person lớn không có box,Hoang Trong Tra (2A202603342),confirmed,mo anh xem thay cau thu tren san bong la nguoi that nhung nhan detection ghi nham thanh dog; panoptic ghi person dung
+000000012670,missing_box,segment person lớn không có box,Nguyen Quoc Hung (2A202603324),rejected,mo anh xem thay cau thu o xa tren san bi che khuat boi luoi chan; khong du tieu chuan de coi la loi thieu box
+000000014038,missing_box,segment book lớn không có box,Pham Phu Nguyen Hung (2A202604062),rejected,mo anh xem thay gia sach chua nhieu sach xep chong len nhau; nhom sach nho bi che khuat khong nhat thiet phai danh rieng box
+000000014439,missing_box,segment person lớn không có box,Do Anh Hoang (2A202604061),rejected,mo anh xem thay khan gia phia xa tren khan dai la dam dong tap trung; phan vung dam dong khong can danh box tung nguoi
+000000015517,missing_box,segment bus lớn không có box,Bui Van Thinh (2A202604040),rejected,mo anh xem thay phan xe buyt bi khuat sau toa nha o goc xa; ty le lo dien rat nho nen khong phai thieu hop nghiem trong
+000000016228,missing_box,segment person lớn không có box,Nguyen Xuan Viet (2A202604045),rejected,mo anh xem thay nguoi trong quan ca phe bi che khuat boi ban ghe va nguoi khac; nhan hien tai da rat day du
+000000017959,missing_box,segment person lớn không có box,Hoang Trong Tra (2A202603342),rejected,mo anh xem thay nguoi choi dieu o rat xa tren bai bien; kich thuoc diem anh qua nho de yeu cau phai co box detection
+000000019109,missing_box,segment motorcycle lớn không có box,Nguyen Quoc Hung (2A202603324),rejected,mo anh xem thay xe may bi che khuat hon nua phan sau boi xe oto; khong phai loi thieu box ma do vat the bi che
+000000019432,missing_box,segment chair lớn không có box,Pham Phu Nguyen Hung (2A202604062),rejected,mo anh xem thay ghe san van dong nam trong cum nhieu hang ghe gop chung; khong can danh dau tung chiec ghe rieng le
+000000024021,missing_box,segment person lớn không có box,Do Anh Hoang (2A202604061),rejected,mo anh xem thay nhom nguoi dung o hau canh bi che khuat boi nguoi o tien canh; nhan gán hien tai la hoan toan dat chuan
+000000025394,missing_box,segment bottle lớn không có box,Bui Van Thinh (2A202604040),rejected,mo anh xem thay cac chai lo tren ban bi che khuat boi nguoi va do vat xung quanh; nhan hien tai da bao quat hop ly
