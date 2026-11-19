@@ -1,2 +1,7 @@
-image,type,target,decision,reviewer,note
-example_000001.jpg,class_swap,box_0,confirmed,Bui Van Thinh (2A202604040),Anh chup xe tai nhung box detection gan nhan car thay vi truck
+image,type,verdict,note
+000000000139,class_swap,confirmed,"mo anh xem thay xe tai nhung nhan detection ghi car; panoptic ghi truck dung"
+000000000285,category_swap,confirmed,"mo anh xem thay chu cho nhung segment panoptic ghi cat; detection ghi dog dung"
+000000000632,bbox_drift,confirmed,"box detection bi lech tam ro ret khoi vat the; khong bao tron doi tuong"
+000000000724,missing_box,confirmed,"thieu han box detection cho mot vat the ro rang co segment panoptic lon"
+000000000812,instance_merge,confirmed,"hai vat the cung lop dung canh nhau bi gop chung thanh mot segment duy nhat"
+000000000955,bbox_drift,rejected,"box lech nhe so voi mask do vat the bi che khuat mot phan boi vat can; nhan hop ly"
